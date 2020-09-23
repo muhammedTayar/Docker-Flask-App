@@ -1,8 +1,8 @@
-#Docker Python Flask-App
+# Docker Python Flask-App
 
 Python Flask "Hello World" App in Docker
 
-##Build this app
+## Build this app
 
 clone the git repo.
 
@@ -16,7 +16,7 @@ build a new image
 docker image build -t python-flask-app .
 ```
 
-##Container Run
+## Container Run
 
 create a container from this image
 
@@ -30,7 +30,7 @@ docker run -p 5001:5000 -d python-flask-app
 http://localhost:5001
 ```
 
-##Check log of container
+## Check log of container
 
 get the container id
 ```
